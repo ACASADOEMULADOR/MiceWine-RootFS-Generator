@@ -6,7 +6,7 @@ PKG_DOWNLOADABLE=1
 BLACKLIST_ARCH=aarch64
 
 GIT_URL=https://github.com/ACASADOEMULADOR/wine
-GIT_COMMIT=6878d910a7cb60cf7111a5126e35138b4ca9a136
+GIT_COMMIT=61d12a9196fdcd79f4d375c0c5a98b017a70fe61
 HOST_BUILD_CONFIGURE_ARGS="--enable-win64 --without-x"
 HOST_BUILD_FOLDER="$INIT_DIR/workdir/$package/wine-tools"
 HOST_BUILD_MAKE="make -j $(nproc) __tooldeps__ nls/all"
